@@ -6,3 +6,4 @@ test('Check about page', async ({ page }) => {
   const text = await heading.textContent();
   expect(text).toBe('About');
 });
+ //
