@@ -25,3 +25,5 @@ jobs:
       run: npm install 
     - name: Start tests
       run: npm run test:unit
+    - name: Dispaly Softuni Username
+      run: echo "Ivaylo Anev"
